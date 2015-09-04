@@ -1,0 +1,74 @@
+/**
+ * Representative styles for the TOC and related elements.
+ */
+$dark-grey: #666;
+$light-grey: #c0c0c0;
+
+#wrapper {
+  position: relative;
+}
+
+#float-toc {
+  position: fixed;
+  //bottom: 2em;
+  top: 110px;
+  right: 2em;
+  text-decoration: none;
+  color: $dark-grey;
+  background-color: $body-bg;
+  padding: 5px;
+  display: block;
+  width: 20%;
+  padding-left: 20px;
+  z-index: 2000;
+  max-height: 80%;
+  overflow: auto;
+
+  header {
+    //position: fixed;
+    //width: 18%;
+    //padding-left: 20px;
+    //padding: 5px;
+    //margin-left: -10px;
+    //background-color: $light-grey;
+    z-index: 2;
+    margin-top: -5px;
+  }
+
+  nav {
+    padding-top: 20px;
+    z-index: 1;
+  }
+  a {
+    color: $dark-grey;
+    font-weight: bold;
+  }
+  button.close {
+    color: $dark-grey;
+    text-shadow: none;
+    font-size: 30px;
+    opacity: 1;
+    background: none;
+  }
+  h2 {
+    //font-weight: bold;
+    //border-bottom: solid 1px $dark-grey;
+    //padding-bottom: 20px;
+  }
+  h3 {
+    padding-top: 10px;
+  }
+}
+#float-toc {
+  border: 1px solid darken($dark-grey, 20%);
+  .icon-list li:before {
+    color: red;
+  }
+}
+
+#show-toc {
+  display: none;
+  position: fixed;
+  bottom: 2em;
+  right: 2em;
+}
