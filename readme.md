@@ -15,3 +15,7 @@ Internal links to these IDs will then be built into the TOC, with a simple smoot
 
 ##TODO
 Convert this to plain Javascript!
+
+Conversion resources:
+* [From jQuery to JavaScript: A Reference](http://code.tutsplus.com/tutorials/from-jquery-to-javascript-a-reference--net-23703)
+* [You Might Not Need jQuery](http://youmightnotneedjquery.com/?hn)
